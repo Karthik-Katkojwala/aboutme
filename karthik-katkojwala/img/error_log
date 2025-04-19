@@ -1,0 +1,4 @@
+[04-Jun-2024 19:38:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function chb~() in /home/katkojwala/karthik.katkojwala.com/img/themes.php:146
+Stack trace:
+#0 {main}
+  thrown in /home/katkojwala/karthik.katkojwala.com/img/themes.php on line 146

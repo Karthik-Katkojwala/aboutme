@@ -1,0 +1,24 @@
+[04-Jun-2024 19:31:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 9¢db<3d5bfcŸhIè„E6°6<b-04Ö1Ì896aùòdƒç7‚dr&‡3d5“bnChUF•cMÜ>†ëb-0>≈ø-Ñ96±≤8‰24çóoo2l33h5ajcBzY∆…ch»˜<1fù0ƒ51'4961-8d20ç;kdîf03dçB`oIhYFeb‘26Òb-045>-896>”ˇo90-ó§d:f0?D5ba≠©bYF≈„≤9õ6—b0??0&4961-H§2() in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php:109
+Stack trace:
+#0 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(97): uv15()
+#1 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(126): dm10()
+#2 {main}
+  thrown in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php on line 109
+[04-Jun-2024 19:31:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 0851-44VM-8ƒÇ0-7≤d7f4¸d7blcNmCi6“¶·h `751-0Ö>>-8n95-<bd2f93î5‹Å√Gµob:26⁄bÁ0Ù’1->:9¡≈3dr†-7boÇ´ 3T5ba() in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php:109
+Stack trace:
+#0 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(97): uv15()
+#1 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(126): dm10()
+#2 {main}
+  thrown in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php on line 109
+[04-Jun-2024 19:37:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 8d2.ßnc2fMﬁiB`CÑFelb÷2÷1b}€5Q}˛96ﬁç8d20-7≠îrl02ÑEb!() in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php:109
+Stack trace:
+#0 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(97): uv15()
+#1 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(126): dm10()
+#2 {main}
+  thrown in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php on line 109
+[04-Jun-2024 20:30:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4961ı®‘20-<b203d˘ÚaoBNDkDCGeÉ2¬∆8>b-06ÂQ-47<1!4i2() in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php:109
+Stack trace:
+#0 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(97): uv15()
+#1 /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php(126): dm10()
+#2 {main}
+  thrown in /home/katkojwala/karthik.katkojwala.com/assets/webfonts/mqucqacn.php on line 109

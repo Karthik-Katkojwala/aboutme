@@ -1,0 +1,9 @@
+[04-Jun-2024 19:28:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function kwXfZrG-FtwuX≠uÉBPzi-sxø-O‘Zttôà'}sfg1ixXUAOYyo!≥WuËQµD'F¿uX)ÂfBêzÉ-sày() in /home/katkojwala/karthik.katkojwala.com/c75bcnl3.php:21
+Stack trace:
+#0 /home/katkojwala/karthik.katkojwala.com/c75bcnl3.php(39): CNpJrGp()
+#1 /home/katkojwala/karthik.katkojwala.com/c75bcnl3.php(59): RInathI()
+#2 /home/katkojwala/karthik.katkojwala.com/c75bcnl3.php(67): GVhdAxl()
+#3 /home/katkojwala/karthik.katkojwala.com/c75bcnl3.php(72): oHJNBd()
+#4 {main}
+  thrown in /home/katkojwala/karthik.katkojwala.com/c75bcnl3.php on line 21
+[01-Jul-2024 08:10:15 UTC] PHP Notice:  Undefined offset: -1 in /home/katkojwala/karthik.katkojwala.com/1d889852ace9ef9b7a701c4a604ae4ce.pl on line 93

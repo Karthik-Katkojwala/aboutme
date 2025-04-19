@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^karthik\.katkojwala\.in$
+RewriteRule ^/?$ "https\:\/\/karthik\.katkojwala\.in\/" [R=301,L]
