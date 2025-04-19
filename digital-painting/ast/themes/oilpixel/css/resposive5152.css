@@ -1,0 +1,498 @@
+/*all section overlay*/
+@media only screen and (min-width: 1100px) {	
+	.midleSec { float:left; width:100%; position:relative; background:#fff; z-index:12; /* margin-bottom:100vh; */ }
+	/* footer{ padding:5% 0px; height: 100vh; } */
+	/* .footStcky { position: fixed;left: 0; right: 0; height: 100vh; bottom: 0; height:100vh; } */
+	.section__bg { width: 100%; height: 0; padding-top: 126.6666667%; background: no-repeat center center; background-size: cover; image-rendering: -webkit-optimize-contrast; }
+	.section--grey-bg .slide__inner { background-color: #171719; }
+	.section .slide__inner { padding: 0;transform: translate3d(0, 0, 0); -webkit-transform: translate3d(0, 0, 0);backface-visibility: hidden; -webkit-backface-visibility: hidden;perspective: 1000; -webkit-perspective: 1000; }
+	/* .slide__padded { position: fixed; top: 100%; left: 0; width: 100%; height: 100%; } */
+	/* .slide--exiting .slide__padded { position: relative; -webkit-transform: none !important; -moz-transform: none !important; -ms-transform: none !important; -o-transform: none !important; transform: none !important; } */
+    .teamBox:hover .absoImg { -webkit-transform: scale3d(1.06,1.06,1.06); transform: scale3d(1.06,1.06,1.06); }	
+	.menu-main-link ul li:hover ul { height: 290px; }
+	.menu-main-link ul li.aboutmenu:hover ul{ height: 110px; } 
+	.menu-main-link ul li.servicemenu:hover ul{ height: 215px; } 
+    .btn:hover { color:#ed1c24; }
+    .btn:hover:before { -webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0); transition: -webkit-transform .7s cubic-bezier(.19,1,.22,1); transition: transform .7s cubic-bezier(.19,1,.22,1); }
+    .btn:hover:after { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); transition: -webkit-transform .9s cubic-bezier(.19,1,.22,1) .2s; transition: transform .9s cubic-bezier(.19,1,.22,1) .2s; background:#ed1c24; } 
+    .slick-slider:hover .slick-arrow { opacity:1; }
+    .slick-arrow:hover:after { color:#000; }
+    .slick-arrow:hover:before { -webkit-transform: scale3d(1.05,1.05,1.05); transform: scale3d(1.05,1.05,1.05); }
+   
+    .specilSec .spec_con .videoLink:hover { color:#ed1c24;}
+    .specilSec .spec_con .videoLink:hover:before { background:#ed1c24; }
+    /*.socialMedia a:hover:before { -webkit-transform: scale3d(1.05,1.05,1.05); transform: scale3d(1.05,1.05,1.05); }*/
+    .socialMedia a:hover .fab, .socialMedia a:hover .svgImg { -webkit-transform: scale(1); transform: scale3d(1); color:#fff; }
+    .socialMedia a:hover:after { width:36px; height:36px; opacity: 1; -webkit-transform: scale3d(1,1,1); transform: scale3d(1,1,1); transition: -webkit-transform .75s cubic-bezier(.19,1,.22,1),opacity .6s cubic-bezier(.19,1,.22,1); transition: transform .75s cubic-bezier(.19,1,.22,1),opacity .6s cubic-bezier(.19,1,.22,1); }
+    .socialMedia a:hover { color:#fff; }
+    .socialMedia a:hover:after { background-color:#000000; }
+    .menu-main-link ul li a:hover:after { width:100%; }
+    .copyText a:hover, .conctInfo p a:hover { color:#ed1c24; }
+}
+/**/
+@media only screen and (max-width : 1680px) {
+	.storySlider .slick-arrow{top: 255px;}
+	.storyvideo {padding-bottom: 67.2%;}
+	.painting-page .paitingTop .col6.srvcImg{padding-left: 70px;}
+	
+}
+@media only screen and (max-width : 1440px) {
+	.secTitle { font-size: 60px; line-height: 60px; }
+	.teamTitle { font-size: 18px; }
+	.storyHead h3 { font-size: 18px; margin-bottom: 0px; }
+	.storyHead p { font-size: 16px; }
+	.secSubHead { font-size: 20px; }
+	.colorCon h3 { font-size: 20px; }
+	.footTitle { font-size: 36px; }
+	.submitBtn { font-size: 24px; }
+	.submitBtn input[type="submit"] { font-size: 24px; }
+	.blogPage .blogTitle, .yourPainting p { font-size: 30px; line-height: 36px; }
+	.rightBox .rightTitle { font-size: 20px; line-height: 24px; }
+	.contactPage .orderText, .faqTitle, .howitTitle, .orderText { font-size: 36px; line-height: 36px; }
+	.contactPage .conTtitle { font-size: 18px; line-height: 24px; }
+	.contactPage .middlesec { margin: 100px 0px 0px; }
+	.contactPage .middlesec .col6 { padding: 100px; }
+	.contactPage .conInfoDiv { margin-bottom: 30px; }
+	.contactPage .conInfoDiv p { margin-bottom: 0px; }
+	.orderNow { padding-bottom: 100px;}
+	.conInfoDiv .iconTag { width: 10%; }
+	.contactPage .contactInfo { width: 88%; padding-left: 20px; }
+	.mapMain iframe { height: 400px; }
+	.accordionDiv ul li { margin: 5px 0px; }
+	.accordionDiv ul li a.toggle { font-size: 20px; line-height: 24px; padding-left: 60px; }
+	.accordionDiv ul .inner a.toggle{padding-left: 40px;}
+	.accordionDiv ul .inner div.inner{    padding-left: 40px;}
+	.accordionDiv ul .inner { padding-left: 60px; }
+	
+	/* .howitworks { padding-bottom: 100px; } */
+	.howitworks .subTitle { font-size: 18px; line-height: 24px; }
+	.howitworks .col6.rightSide, .orderNow .col6.rightSide { padding: 0px 100px; }
+	/* .uploadBox { padding: 150px 15px; } */
+	.testimonialPage .testBox { padding: 100px 0px; }
+
+	.storyMain { margin-bottom: 30px;}
+	.paintRight .storyBox{padding-right: 34px;}
+	.painting-page{margin-top: 100px;}
+	.painting-page .paitingTop .col6 .frameSize{padding-bottom: 25px;}
+	.arrowsDiv{margin-top: 40px;}
+
+	.painting-page .paitingTop .col6 .mainTitle{font-size: 36px;line-height: 40px;}
+	.side-menu{width: 60%;}
+	.menu-main-link ul li > ul li a{font-size: 14px;}
+	.storyvideo{padding-bottom: 67.1%;}
+	.storySlider .slick-arrow{top: 234px;}
+	.painting-page .paitingTop .col6.srvcImg{padding-left: 50px;}
+	.painting-page .paitingTop .col6.rightPart{padding-right: 50px;}
+	#data-faqtitle-sticky{margin-top: 75px;}
+}
+
+@media only screen and (max-width : 1400px) {
+	.secSubHead { font-size: 18px; }
+	
+}
+@media only screen and (max-width : 1366px) {
+	.painting-page .paitingTop .col6 .mainTitle{font-size: 32px;line-height: 36px;}
+	.storySlider .slick-arrow{top: 215px;}
+}
+
+@media only screen and (max-width : 1280px) {
+	
+	.secTitle { font-size: 48px; line-height: 48px; }
+	.colorCon h3 { font-size: 18px; }
+	.blogPage .blogDes { margin-bottom: 100px; }
+    .pagintionDiv { margin-bottom: 100px; }
+    .yourPainting { padding: 100px 0px; }
+	.uploadImage { font-size: 20px; line-height: 24px; }
+	.storySlider .slick-arrow{top: 204px;}
+
+}
+
+@media only screen and (max-width : 1200px) {
+	footer{height: initial;padding: 0px;}
+	.footerMain{position: relative;}
+	.secTitle { font-size: 48px; line-height: 48px; }
+	.colorCon h3 { font-size: 18px; }
+	.blogPage, .orderNow, .howitworks{padding-top:110px;}
+	.faqPage{padding:100px 0px 80px; }
+	.testimonialPage{padding-top:100px;}
+	.galleryDiv{margin-top: 100px;}
+	.orderNow, .howitworks { padding-bottom:0px; height: initial;}
+	/*.footerlink li{margin: 0px 10px;}*/
+	.footerlink li a{font-size: 14px;}
+	.menu-main-link ul li:first-child{display: none;}
+	.menu-main-link ul li ul li:first-child{display: block;}
+	#data-faqtitle-sticky{text-align: right;margin-top: 78px;}
+	.painting-page .paitingTop .col6{padding-left:15px;padding-right: 15px;}
+	.painting-page .paitingTop .col6.srvcImg{padding-left:15px;}
+	.painting-page .paitingTop .col6.rightPart{padding-right: 15px;}
+	.contactPage .rightForm{margin-bottom: 60px;}
+	.zoom-container .button{background: rgba(0,0,0,1);}
+	.zoom-container .icon--arrow div{background: #fff;}
+
+}
+
+@media only screen and (max-width : 1199px) {
+	.pree-release-section .col-lg-4.col-md-4:nth-child(3n+1){clear: left;}
+	.grayborder-box {padding: 25px;}
+	.grayborder-box h2{font-size: 20px;}
+}
+
+/*iPad 1024 x 768 Landscape*/
+@media only screen and (max-width: 1024px) {
+	/*fix auto*/
+    .section { float:left; width:100%; height:auto; }
+    .bannerMain { height:550px;margin-top: 55px; }
+	.menu-main-link ul li > ul.subMenu { height: 100%;top: 0; }
+	.menu-main-link ul li > ul{height: 100%;top: 8px;}
+    .side-menu { padding: 60px 8%;width: 64%; }
+    .close-menu { top: 20px; left: 20px;z-index: 20; }
+    .menu-main-link { margin-right: 20px; }
+    .menu-main-link ul.subMenu li a { font-size: 14px; }
+    .contactMain { width: 43%; }
+    .conctInfo p { font-size: 16px; }
+    .contactMain .socialMedia a { margin: 0px; width: 30px; height: 30px; line-height: inherit; }
+    .commonSec { padding: 100px 0px; }
+    .secTitle { font-size: 36px; line-height: 40px; }
+    .secTitle:after, .footTitle:before, .contactTitle:after, .blogPage .blogTitle:after, .yourPainting p:before, .orderText:after, .faqTitle:before, .howitTitle:after, .testimonialPage .testTitle:after { width: 100px; height: 2px; }
+    .aboutSec .teamMainSec { width: 100%; }
+    .teamList { float: left; margin-bottom: 20px; }
+    .specilSec .spec_con { padding: 50px; }
+    .specilSec .spec_con .spec_conInner { max-width: inherit; }
+    .specilSec .spec_con p { font-size: 16px; line-height: 24px; }
+    .specilSec .spec_con .videoLink { font-size: 16px; }
+    .btn { font-size: 16px; }
+    .newsLatterMain { max-width: 400px; }
+    .footerMain { padding: 80px 0px; }
+    .blogPage .blogDes { margin-bottom: 80px; }
+    .pagintionDiv { margin-bottom: 80px; }
+    .yourPainting { padding: 80px 0px; }
+
+    .rightBox .rightTitle { font-size: 18px; }
+    .contactPage .middlesec { margin-top: 80px; }
+    .contactPage .middlesec .col6 { padding: 80px 40px; }
+    .contactPage .middlesec .col6.leftMiddle:after { width: 201%; }
+    .orderNow .rightForm .txtBox { margin-bottom: 30px; margin-top: 0px; }
+    .howitworks .col6.rightSide, .orderNow .col6.rightSide { padding: 0px 30px; }
+    /* .uploadBox { padding: 120px 15px; } */
+    .uploadImage { padding-bottom: 20px; }
+    .uploadBox .custom-file-upload { font-size: 16px; }
+    .testimonialPage .testBox { padding: 80px 0px; }
+    .testimonialPage .testTitle { font-size: 30px; line-height: 30px; padding-bottom: 30px; margin-bottom: 30px; }
+	.testBox .city { padding-bottom: 10px; font-size: 16px; }
+	.aburHeaPart{margin-top: 0px;}
+	.storyMain{margin-bottom: 0px;padding-right: 0px;}
+	/* .paintRight .storyBox{padding-right: 0px;} */
+	.paintcontent{padding-left: 40px; }
+	.painting-page .paitingTop .col6.paintcontent .mainTitle{padding-bottom: 25px;margin-bottom: 25px;}
+	.painting-page .paitingTop .col6 .frameSize{padding-bottom: 0px;margin-bottom: 20px;}
+	.arrowsDiv .slick-arrow{margin-right: 10px;}
+	.arrowsDiv{margin-top: 25px;margin-bottom: 25px;}
+
+	.painting-page .galleryDiv{margin-top: 80px;}
+	.cms_con{width: 95%;}
+	#stkyHead{top: 0px !important;}
+	.slide-down-top{display: none;}
+	.storyvideo{padding-bottom: 67.2%;}
+	.countDiv .counts .digits span{font-size: 14px;}
+	
+
+}
+
+/*Tablet*/
+@media only screen and (max-width:992px) {
+	.contactPage .inquiryText span { display: inline; }
+}
+
+@media only screen and (max-width:991px) {
+	.pree-release-section .col-lg-4.col-md-4:nth-child(3n+1){clear: none;}
+	.pree-release-section .col-lg-4.col-md-4:nth-child(2n+1){clear: left;}
+}
+
+/*Tablet*/
+@media only screen and (max-width:980px) {
+	.blogPage .blogDes { margin-top: 30px; }
+	.blogPage .blogTitle, .yourPainting p, .testimonialPage .testTitle { font-size: 24px; line-height: 30px; }
+}
+
+/*Tablet*/
+@media only screen and (max-width:960px) {
+	.contactMain { width: 45%; }
+}
+
+/*Nokia N9 Landscape*/
+@media only screen and (max-width:854px) {
+	.tagslist .tagStyle { margin: 3px 5px 3px 0px; padding: 8px 12px; }
+	.categoryList li { margin-bottom: 10px; }
+	.categoryList li a { font-size: 16px; }
+	.mapMain iframe { height: 300px; }
+	.uploadImage { font-size: 18px; line-height: 20px; }
+	/* .uploadBox { padding: 80px 15px; } */
+	.bannerMain {height: 425px;}
+	.painting-page .paitingTop .col6 .mainTitle{font-size: 24px;line-height: 30px;}
+	.painting-page .galleryDiv{margin-top: 60px;}
+	.viewmorepainting{padding: 60px 0px;}
+	.cust-testimony{padding-left: 15px;}
+	.specilSec .special_img{padding-bottom: 65%}
+	.specilSec .spec_con p{margin-bottom: 30px;}
+	.aboutSec .col-md-6{padding-left: 15px;}
+	/*.footerlink li{margin: 0px 5px;}*/
+	.footerlink li a{font-size: 12px;}
+	.storyvideo{padding-bottom: 67.1%;}
+	.side-menu { width: 80%; }
+	.contactPage .orderText, .faqTitle, .howitTitle, .orderText{font-size: 32px;}
+	#data-faqtitle-sticky{margin-top: 75px;}
+
+}
+
+/*Pixel 2 XL Landscape*/
+@media only screen and (max-width:823px) {
+	
+}
+
+/*iPhone X Landscape*/
+@media only screen and (max-width:812px) {
+	
+}
+
+/*Kindle Fire HDX, Nexux 10*/
+@media only screen and (max-width:800px) {
+	
+	.menu-main-link ul li a { font-size: 20px; }
+	
+
+}
+
+/*iPad Mini*/
+@media only screen and (max-width:768px) {
+	
+}
+
+/*iPad Mini*/
+@media only screen and (max-width:767px) {
+.logo img{max-width: inherit;}	
+.logo{width: 240px;overflow: hidden;}
+.testBox .pull-right{float: inherit !important}	
+.painting-page .paitingTop .col6{width: 100%;padding: 0px 15px;}
+.painting-page .paitingTop .col6.rightPart{padding-left:15px;margin-top: 30px;padding-right: 15px;}
+.painting-page .paitingTop .col6.paintcontent {margin-top: 30px; }
+.painting-page .paitingTop .col6 .frameSize{padding-bottom: 20px;}
+.paintRight .storyBox{padding-right: 0px;}
+.leftOpenmenu{width: 70%;}
+.leftOpenmenu .galleryMenu li a{font-size: 14px;line-height: 36px;}
+.aboutSec .row > div:first-child{position: relative !important;width: 100% !important;}
+.cms_con{width: 100%;}
+.commonSec, .footerMain { padding: 60px 0px; }
+.aboutSec.commonSec{padding-left: 15px;padding-right: 15px;}
+.footerlink li{margin: 0px 0px 10px;display: block; text-align: left;}
+.footerlink {float: left; width: 50%; margin-bottom: 15px;}
+.socialshareicon{text-align: left;}
+.socialIcons li a{margin: 0px 15px 0px 0px;}
+.storyvideo{padding-bottom: 67.3%;}
+.contactPage .rightForm{margin-bottom: 60px;}
+.contactPage .middlesec .col6.leftMiddle:after{left:-50px;}
+.contactPage .middlesec .col6.rightMiddle:after{left:-50px;}
+div#data-contact-sticky, div#data-contact-sticky .secTitle, #data-faqtitle-sticky, .faqPage .secTitle {text-align: left;}
+#data-faqtitle-sticky{margin-top: 0px;}
+.faqPage .secTitle br{display: none;}
+.uploadImage { margin-bottom: 30px; }
+.sitemaprow{padding: 100px 0px 50px;}
+.our-cust-story { margin-top: 0px; }
+.sitemaprow .row .col-sm-6{width: 100%;}
+.painting-page .galleryDiv{margin-top: 30px;}
+.pree-release-section .col-lg-4.col-md-4:nth-child(2n+1){clear: none;}
+.tagslist{margin:0px 0px 30px;}
+}
+/* Landscape media css common */
+@media screen and (min-device-width: 480px) and (max-device-width: 812px) and (orientation : landscape){
+	.leftOpenmenu .galleryMenu{position: relative;top: 0;transform: translate(0);-webkit-transform: translate(0);-ms-transform: translate(0);-moz-transform: translate(0);}
+  }
+
+/*iPhone 6/7/8 Plus Landscape*/
+@media only screen and (max-width:736px) {
+	p { font-size: 16px; line-height: 24px; margin-bottom: 20px; }
+	.side-menu { width: 90%;}
+	.conctInfo { margin-bottom: 20px; }
+	.conctInfo p { margin-bottom: 20px; }
+	.contactMain .socialMedia a { width: auto; height: auto; }
+	.aburHeaPart, .faqTitle { text-align: left; }
+	.secTitle, .footTitle, .contactPage .orderText, .faqTitle, .howitTitle, .orderText, .painting-page .paitingTop .col6 .mainTitle { font-size: 30px; line-height: 36px; padding-bottom: 30px; margin-bottom: 30px; }
+	.secTitle:after, .contactPage .orderText:after, .faqTitle:before { left: 0; }
+	.secTitle span { display: inline-block; letter-spacing: -1px;margin-right: 5px;}
+	.cms_con { margin-top: 30px; }
+	.cust-testimony { margin-top: 50px; padding-left: 15px;}
+	.storyImg { margin-bottom: 30px; }
+	.align-right { text-align: left; }
+	.our-cust-story { margin-top: 0px; text-align: left;}
+	.specilSec { height: auto; }
+	.specilSec .special_img { width: 100%;background-size: cover;background-position: top right; padding: 270px 0px; }
+	.specilSec .spec_con { width: 100%; padding: 50px 15px; }
+	.specilSec .spec_con p { margin-bottom: 30px; }
+
+	.colorCon .date, .blogPage .blogDate { font-size: 14px; }
+	.newsLatterMain { max-width: 300px; }
+	.footerMain .txtBox { margin-bottom: 20px; }
+	.signupdiv { margin-top: 0px; }
+	.submitBtn input[type="submit"] { font-size: 16px; }
+	.newsLatterMain { margin-bottom: 30px; }
+	.copyText { font-size: 14px; }
+	.blogPage .blogTitle, .yourPainting p { padding-bottom: 30px; margin-bottom: 30px; }
+	.rightBox { margin: 40px 0px 0px 0px; }
+	.twitter-widget { margin-bottom: 60px; }
+    .blogPage .blogDes { margin-bottom: 60px; }
+    .pagintionDiv { margin-bottom: 60px; }
+    .yourPainting { padding: 60px 0px; }
+    .contactPage .orderText, .contactPage .inquiryText, .contactPage .middlesec .inqText { text-align: left; }
+    .contactPage .middlesec { margin-top: 60px; }
+    .contactPage .middlesec .col6 { padding: 60px 15px;text-align: left; }
+    .orderNow { padding-bottom: 60px; }
+    .conInfoDiv .iconTag { width: 8%; }
+    .contactPage .contactInfo { width: 90%; }
+    .mapMain iframe { height: 250px; }
+    .contactPage .conTtitle { font-size: 16px; }
+    /* .accordionDiv { padding: 20px 0px 60px 0px; } */
+    .accordionDiv ul li a.toggle { font-size: 18px; padding: 15px 0px 15px 60px; }
+    .accordionDiv ul .inner a.toggle { font-size: 16px; }
+    /* .accordionDiv ul .inner { padding-left: 36px; } */
+    /* .accordionDiv ul .inner a.toggle { padding-left: 50px; } */
+    .accordionDiv .arrow { top: 6px; }
+    /* .accordionDiv ul .inner .arrow { top: -2px; } */
+    .howitworks .col6 { width: 100%; padding: 0px 15px; }
+    .howitworks .col6.rightSide { margin-top: 30px; padding: 0px 15px; }
+    .orderNow .col6 { width: 100%; margin: 0px; }
+    .uploadBox { padding: 0px 15px; }
+    .orderNow .col6.rightSide { margin-top: 30px; padding: 0px 15px; }
+    .orderNow .rightForm .txtBox.col6 { width: 50%; }
+    .testimonialPage .testBox { padding: 60px 0px; }
+    .testimonial-text-right { text-align: left; }
+    .testimonialPage .testTitle:after { left: 0; }
+    .storyReting { float: left; width: 100%; }
+    /* .pull-right { float: inherit !important; } */
+    .testImages { overflow: inherit; }
+	.testimonial-text-left.testDesc, .testimonial-text-right.testDesc { margin-top: 30px; }
+	.footerlink{margin-bottom: 10px;}
+
+}
+
+/*Pixel 2 Landscape*/
+@media only screen and (max-width:732px) {
+
+}
+
+/*iPhone 6/7/8 Landscape*/
+@media only screen and (max-width:667px) {
+	.specilSec .special_img { padding: 240px 0px; }
+}
+
+/*Smartphone Landscape*/
+@media only screen and (max-width:640px) {
+	
+}
+
+/*Blackberry PlayBook, Nexus 7*/
+@media only screen and (max-width:600px) {
+	.menu-main-link { width: 100%; margin-right: 0px; }
+	.contactMain { width: 100%; margin-top: 30px; }
+	.copyText { line-height: 18px; padding: 0px 120px; }
+	.specilSec .special_img { padding: 220px 0px; }
+}
+
+/*iPhone 5/SE Landscape*/
+@media only screen and (max-width:568px) {
+
+	.copyText { padding: 0px 105px; }
+	.socialMedia a{margin: 0px 6px;}
+	.accordionDiv ul li a.toggle { font-size: 16px;  }
+    .accordionDiv ul .inner a.toggle { font-size: 14px; }
+
+
+}
+
+/*Nokia Lumia 520 Landscape*/
+@media only screen and (max-width:533px) {
+	.colorFullSec .colorFull_head { width: 100%; padding: 50px 15px; height: auto; }
+    .colorFullRight { width: 100%; }
+	.copyText { padding: 0px 90px; }
+	.bannerMain {height: 211px;margin-top: 56px;}
+
+	.viewGallery{font-size: 20px;}
+	.galleryDiv .galleryTitle{font-size: 30px;line-height: 40px;padding-bottom: 30px;margin-bottom: 50px;}
+	.menuIcon{margin-left: 20px;}
+	.headerMain{padding: 10px 0px;}		
+
+	.footerlink li{text-align: center;}
+	.footerlink {width: 100%;}
+}
+
+/*Nokia N9*/
+@media only screen and (max-width:480px) {
+	.storyHeadInner { width: 100%; }
+	.storyReting { float: left; margin-top: 10px; }
+	.storyHead h3 { font-size: 16px; }
+	.storyHead p { font-size: 14px; }
+	.copyText { padding: 0px 60px; }
+	.orderNow .rightForm .col6 { width: 100%; }
+	.contactPage .contactInfo { padding-left: 13px; }
+	.specilSec .special_img { padding: 180px 0px; }
+	.accordionDiv .arrow { width: 32px; height: 32px; top: 10px; }
+	/* .accordionDiv ul .inner .arrow { top: 3px; } */
+	.accordionDiv .arrow:after { width: 13px; }
+	.accordionDiv ul .inner{padding-left: 50px;}
+	.accordionDiv ul li a.toggle { padding: 15px 0px 15px 50px; }
+	.accordionDiv ul .inner a.toggle { padding-left: 40px; }
+	/* .accordionDiv { padding: 0px 0px 60px 0px; } */
+	.orderNow .rightForm .txtBox.col6 { width: 100%; }
+	.storyReting { margin-top: 0px; }
+}
+
+/*iPhone 6/7/8 Plus*/
+@media only screen and (max-width:414px) {
+	.side-menu { width: 85%; }
+	.leftOpenmenu{width: 85%}
+	.menu-main-link ul.subMenu li a { font-size: 14px; }
+	.socialMedia a { width: 30px; height: 30px; }
+	.copyText { padding: 0px; }
+	.menu-main-link ul li > ul li a{font-size: 13px;}
+
+	.scrollTop{right: 15px;}
+	.menuBtn{right: 15px;}
+}
+
+/*Nexus 6*/
+@media only screen and (max-width:412px) {
+
+}
+
+/*Pixel 2*/
+@media only screen and (max-width:411px) {
+
+}
+
+/*LG Optimus L70, Nexus 4*/
+@media only screen and (max-width:384px) {
+	.secTitle, .footTitle, .contactPage .orderText, .faqTitle, .howitTitle, .orderText { font-size: 24px; line-height: 30px; padding-bottom: 20px; margin-bottom: 20px; }
+	.secTitle:after, .footTitle:before, .contactTitle:after, .blogPage .blogTitle:after, .yourPainting p:before, .orderText:after, .faqTitle:before, .howitTitle:after, .testimonialPage .testTitle:after { width: 70px; }
+	.socialMedia a { width: auto; height: auto; margin: 0px 5px; }
+	.blogPage .blogTitle, .yourPainting p { font-size: 20px; line-height: 24px; }
+	.blogPage .blogTitle, .yourPainting p { padding-bottom: 20px; margin-bottom: 20px; }
+	.mapMain iframe { height: 200px; }
+	.conInfoDiv .iconTag { width: 10%; }
+	.contactPage .contactInfo { width: 87%; }
+	.testimonialPage .testTitle { font-size: 20px; line-height: 24px; padding-bottom: 20px; margin-bottom: 20px; }
+	.testBox .city { font-size: 14px; }
+	.storyvideo{padding-bottom: 67.1%;}
+}
+
+/*iPhone 6/7/8 Plus, iPhone X*/
+@media only screen and (max-width:375px) {
+
+}
+
+/*Galaxy S5, Galaxy Note, Galaxy Note 3, Nexus 5, BlackBerry, Microsoft Lumia*/
+@media only screen and (max-width:360px) {
+	.menuIcon{margin-left: 10px;}	
+}
+
+/*iPhone 5/SE, iPhone 4, Nokia Lumia 520*/
+@media only screen and (max-width:320px) {
+	.specilSec .special_img { padding: 120px 0px; }
+}
